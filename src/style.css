@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+.formDiv{
+  display: grid;
+  gap: 10px;
+  justify-content: space-around;
+  
+}
